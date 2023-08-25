@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: fabricioveronez/trader-web:v1
+        image: sviana/trader-web:v1
         ports:
         - containerPort: 3000
         env:

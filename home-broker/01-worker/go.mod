@@ -1,4 +1,4 @@
-module github.com/KubeDev/imersao-devops-cloud-02/home-broker/01-worker
+module github.com/sviana/imersao-devops-cloud-02/home-broker/01-worker
 
 go 1.20
 

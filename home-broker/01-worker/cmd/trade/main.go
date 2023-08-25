@@ -6,10 +6,10 @@ import (
 	"sync"
 	"os"
 	ckafka "github.com/confluentinc/confluent-kafka-go/kafka"
-	"github.com/KubeDev/imersao-devops-cloud-02/home-broker/01-worker/internal/infra/kafka"
-	"github.com/KubeDev/imersao-devops-cloud-02/home-broker/01-worker/internal/market/dto"
-	"github.com/KubeDev/imersao-devops-cloud-02/home-broker/01-worker/internal/market/entity"
-	"github.com/KubeDev/imersao-devops-cloud-02/home-broker/01-worker/internal/market/transformer"
+	"github.com/sviana/imersao-devops-cloud-02/home-broker/01-worker/internal/infra/kafka"
+	"github.com/sviana/imersao-devops-cloud-02/home-broker/01-worker/internal/market/dto"
+	"github.com/sviana/imersao-devops-cloud-02/home-broker/01-worker/internal/market/entity"
+	"github.com/sviana/imersao-devops-cloud-02/home-broker/01-worker/internal/market/transformer"
 )
 
 func main() {

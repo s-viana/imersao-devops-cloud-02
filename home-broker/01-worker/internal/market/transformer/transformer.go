@@ -1,8 +1,8 @@
 package transformer
 
 import (
-	"github.com/KubeDev/imersao-devops-cloud-02/home-broker/01-worker/internal/market/dto"
-	"github.com/KubeDev/imersao-devops-cloud-02/home-broker/01-worker/internal/market/entity"
+	"github.com/sviana/imersao-devops-cloud-02/home-broker/01-worker/internal/market/dto"
+	"github.com/sviana/imersao-devops-cloud-02/home-broker/01-worker/internal/market/entity"
 )
 
 func TransformInput(input dto.TradeInput) *entity.Order {
